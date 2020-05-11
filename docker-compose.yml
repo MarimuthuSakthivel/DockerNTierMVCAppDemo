@@ -4,7 +4,7 @@
 version: '3'
 services:
   docker_ntierdemo_app:    
-    image: marimuthups/dockerntierdemo_app:v1
+    image: marimuthups/dockerntierdemo_app:v2
     build:
       context: ./NtierMvc/bin/Release/Publish          
     depends_on:
